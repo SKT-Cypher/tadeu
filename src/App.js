@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import { CardPessoa } from './pages/component';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="pagina">
+      <h1>componentes</h1>
+
+      <section className='opa'>
+
+        <div><CardPessoa nome="Yasuo" maestria={1000000} elo="Platina" avatar="./transferir.jpg" 
+        alinhamento="row" margem="margem1"/> </div> 
+
+         <br></br> <br></br> <br></br> 
+
+        <div><CardPessoa nome="Zed" maestria={400000} elo="Prata" avatar="./zed.jpg"
+         alinhamento="row2" margem="margem2"/> </div>
+
+        <br></br> <br></br> <br></br> 
+       
+        <div><CardPessoa nome="Master Yi" maestria={1000} elo="Diamante" avatar="yi.jpg" alinhamento=
+        "colum" margem="margem3"/></div>
+
+         <br></br> <br></br> <br></br> 
+
+         </section>
+    </section>
+
+    
   );
 }
 

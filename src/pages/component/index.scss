@@ -1,0 +1,47 @@
+.pagina{
+    margin: 3em
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+.opa{
+    width: 400px;
+    margin-bottom: 4em;
+    
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    border: solid rgb(0, 255, 55);
+}
+
+.row2{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    border: solid red;
+    
+}
+
+.colum{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(97, 1, 250);
+}
+
+.margem1{
+    margin-left: 3em;
+}
+.margem2{
+    margin-right: 3em;
+}
+.margem3{
+    margin-top: 2em;
+    margin-left: 8em;
+}
+
